@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(241, 201, 201);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.space{
+    height: 90vh;
+    width: 75%;
+    padding: 5rem;
+    position: relative;
+    align-self: center;
+    background-image: url(img/img.jpg);
+    background-size: cover;
+    border-radius: 2em;
+}
+.container{
+    padding: 30px;
+}
+.logo{
+    float: left;
+}
+.bar{
+
+}
+.bar nav{     
+    float: right;
+    list-style: none;
+}
+
+.nav{
+    font-size: 14px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.nav div a{
+    text-decoration: none;
+    color: gray;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.nav div a:hover{
+    text-decoration: none;
+    color:black;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.title{
+    width: 33%;
+    margin: 5px auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.title h1 p{
+    color: red;
+}
+h5{
+    width: 30%;
+    margin: 10px auto;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: rgb(36, 36, 36);
+}
+.button{
+    margin-top: ;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.btn{
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: white;
+    background-color: rgb(241, 201, 201);
+}
+.btn-two{
+    margin-left: 10px;
+}
+.btn-two:hover{
+    margin-left: 10px;
+    background-color: red;
+    transition: all 0.5s ease-in;
+}
